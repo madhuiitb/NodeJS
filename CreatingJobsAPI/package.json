@@ -1,0 +1,21 @@
+{
+  "name": "creatingjobsapi",
+  "version": "1.0.0",
+  "description": "This api is about jobs and learning purpose, how apis work in realtime",
+  "main": "app.js",
+  "scripts": {
+   "start" : "node app.js",
+   "dev" : "nodemon app",
+   "prod" : "SET NODE_ENV=production & nodemon app.js"
+  },
+  "author": "madhuiitb",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.21"
+  },
+  "keywords": []
+}
